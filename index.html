@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" style="background-color: #050505;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyderabad MeatHub - The Premium Standard of Meat</title>
+    <meta name="description" content="Hyderabad MeatHub offers the finest, premium quality fresh meat delivered with care across Hyderabad. Uncompromising hygiene, unmatched quality." />
+    <meta name="keywords" content="fresh meat hyderabad, premium meat, order chicken online, order mutton hyderabad, meathub" />
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hyderabadmeathub.com/" />
+    <meta property="og:title" content="Hyderabad MeatHub - Premium Fresh Meat" />
+    <meta property="og:description" content="The premium standard of meat in Hyderabad. Fresh, hygienic, and delivered with uncompromising care." />
+    <meta property="og:image" content="https://hyderabadmeathub.com/social-preview.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Hyderabad MeatHub - Premium Fresh Meat" />
+    <meta property="twitter:description" content="The premium standard of meat in Hyderabad. Fresh, hygienic, and delivered with uncompromising care." />
+    <meta property="twitter:image" content="https://hyderabadmeathub.com/social-preview.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="theme-color" content="#050505" />
+
+    <!-- Analytics Placeholder -->
+    <script>
+      const gaId = import.meta.env?.VITE_GA_TRACKING_ID;
+      if (gaId) {
+        let script = document.createElement('script');
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', gaId);
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-color: #050505; margin: 0; padding: 0;">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
